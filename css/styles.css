@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+}
+
+.list1 {
+  background-color: #f08080;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.list1 li {
+  margin: 10px;
+  background-color: #c06666;
+}
+
+.list1 li a {
+  background-color: #924c4c;
+}
+
+.list2 {
+  background-color: #b9b9b9;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  position: relative;
+}
+
+.list2 li:nth-child(even) {
+  background-color: #52acff;
+}
+.list2 li:nth-child(odd) {
+  background-color: #a0d1ff;
+}
+
+.list2 li::after {
+  content: " x";
+  color: red;
+}
+.list2 .done {
+  background-color: #8f8f8f !important;
+}
+
+.list3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.list3 a {
+  color: #0000ff;
+  text-decoration: none;
+}
